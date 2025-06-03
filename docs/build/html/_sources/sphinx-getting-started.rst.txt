@@ -85,15 +85,16 @@ Further Reading
 
 ---
 
-### **Adding to `index.rst`**
+Adding to ``index.rst``
+------------------------
+Update the ``.. toctree::`` in your ``index.rst`` like this:
 
-Update the `.. toctree::` in your `index.rst` like this:
+.. code-block:: restructuredtext
 
-```{eval-rst}
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   .. toctree::
+      :maxdepth: 2
+      :caption: Contents:
 
-   usage
-   api
-   sphinx-getting-started
+      usage
+      api
+      sphinx-getting-started

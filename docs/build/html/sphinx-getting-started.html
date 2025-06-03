@@ -190,6 +190,10 @@
       
       <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
   
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="_static/logo-light.png" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="_static/logo-dark.png" alt="Dark Logo"/>
+  </div>
   
   <span class="sidebar-brand-text">FastAPI Docs Example 1.0 documentation</span>
   
@@ -320,16 +324,17 @@ Open <cite>index.html</cite> in your browser!</p>
 <li><p><a class="reference external" href="https://docutils.sourceforge.io/docs/user/rst/quickstart.html">reStructuredText Primer</a></p></li>
 </ul>
 <p>—</p>
-<p>### <strong>Adding to `index.rst`</strong></p>
-<p>Update the <cite>.. toctree::</cite> in your <cite>index.rst</cite> like this:</p>
-<p><a href="#id1"><span class="problematic" id="id2">``</span></a><a href="#id3"><span class="problematic" id="id4">`</span></a>{eval-rst}
-.. toctree:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">:</span><span class="n">maxdepth</span><span class="p">:</span> <span class="mi">2</span>
-<span class="p">:</span><span class="n">caption</span><span class="p">:</span> <span class="n">Contents</span><span class="p">:</span>
+</section>
+<section id="adding-to-index-rst">
+<h2>Adding to <code class="docutils literal notranslate"><span class="pre">index.rst</span></code><a class="headerlink" href="#adding-to-index-rst" title="Link to this heading">¶</a></h2>
+<p>Update the <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">toctree::</span></code> in your <code class="docutils literal notranslate"><span class="pre">index.rst</span></code> like this:</p>
+<div class="highlight-restructuredtext notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">toctree</span><span class="p">::</span>
+   <span class="nc">:maxdepth:</span> 2
+   <span class="nc">:caption:</span> Contents:
 
-<span class="n">usage</span>
-<span class="n">api</span>
-<span class="n">sphinx</span><span class="o">-</span><span class="n">getting</span><span class="o">-</span><span class="n">started</span>
+   usage
+   api
+   sphinx-getting-started
 </pre></div>
 </div>
 </section>
@@ -389,6 +394,7 @@ Open <cite>index.html</cite> in your browser!</p>
 <li><a class="reference internal" href="#writing-your-rst-files">Writing Your ‘.rst’ files</a></li>
 <li><a class="reference internal" href="#building-the-docs">Building the Docs</a></li>
 <li><a class="reference internal" href="#further-reading">Further Reading</a></li>
+<li><a class="reference internal" href="#adding-to-index-rst">Adding to <code class="docutils literal notranslate"><span class="pre">index.rst</span></code></a></li>
 </ul>
 </li>
 </ul>

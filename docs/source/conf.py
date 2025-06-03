@@ -14,6 +14,15 @@ copyright = '2025, Dom Caracappa'
 author = 'Dom Caracappa'
 release = '1.0'
 
+html_logo = '_static/logo.png'
+
+html_theme_options = {
+    "light_logo": "logo-light.png",  # Black logo for light background
+    "dark_logo": "logo-dark.png",  # White logo for dark background
+}
+
+
+
 # -- General configuration ---------------------------------------------------
 
 extensions = [

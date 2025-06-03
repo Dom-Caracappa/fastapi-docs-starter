@@ -86,7 +86,7 @@ def echo(message: str = Query(None, description="The message to echo back")):
     """
     return {"echo": message}
 
-@app.get("/fact")
+@app.get("/fact", summary="Get a random fact", description="Returns a random fact from a curated list.")
 def get_random_fact():
     """
     Get a random fact.
