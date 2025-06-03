@@ -6,7 +6,7 @@ This project is a practice environment to learn API documentation with FastAPI a
 ![License](https://img.shields.io/github/license/Dom-Caracappa/fastapi-docs-starter)
 [![Documentation Status](https://img.shields.io/badge/docs-latest-brightgreen)](https://dom-caracappa.github.io/fastapi-docs-starter/)
 
-## 🚀 About
+## About
 
 - **Framework**: FastAPI
 - **Documentation**: Sphinx + reStructuredText (with Alabaster and Furo themes)
@@ -15,7 +15,7 @@ This project is a practice environment to learn API documentation with FastAPI a
   - Dynamic API docs built with Sphinx
   - Hosted on GitHub Pages
 
-## 📦 Getting Started
+## Getting Started
 
 1. Clone the repo:
     ```bash
@@ -47,10 +47,8 @@ This project is a practice environment to learn API documentation with FastAPI a
     ghp-import -n -p -f docs/build/html
     ```
 
-## 📄 Live Docs
+## Live Docs
 
-👉 [View the API Documentation](https://dom-caracappa.github.io/fastapi-docs-starter/)
+[View the API Documentation](https://dom-caracappa.github.io/fastapi-docs-starter/)
 
----
 
-Feel free to tweak it! Let me know if you want a PR-ready `README.md` file or want to edit the content together. 🚀
