@@ -17,3 +17,4 @@ Add your content using ``reStructuredText`` syntax. See the `reStructuredText do
    usage
    api
    sphinx-getting-started
+   ci-cd
